@@ -1,6 +1,6 @@
 # Blog Archive 
 -----
----
+```
 <?php 
 if ( have_posts() ) : 
     while ( have_posts() ) : the_post(); 
@@ -12,10 +12,10 @@ else:
     _e( 'Sorry, no posts matched your criteria.', 'textdomain' ); 
 endif; 
 ?>
----
+```
 
 #Style Style Posts from Some Categories Differently 
----
+```
 <?php
 // Start the Loop.
 if ( have_posts() ) : 
@@ -64,4 +64,4 @@ else :
 // Completely stop the Loop.
  endif;
 ?>
----
+```
