@@ -1,6 +1,6 @@
 # Blog Archive 
 -----
-```
+```php
 <?php 
 if ( have_posts() ) : 
     while ( have_posts() ) : the_post(); 
@@ -15,7 +15,8 @@ endif;
 ```
 
 #Style Style Posts from Some Categories Differently 
-```
+---
+```php
 <?php
 // Start the Loop.
 if ( have_posts() ) : 
