@@ -14,7 +14,7 @@ endif;
 ?>
 ```
 
-# Individual Individual Post 
+# Individual Post 
 ---
 ```php
 <?php 
