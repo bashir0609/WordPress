@@ -14,7 +14,7 @@ endif;
 ?>
 ```
 
-#Individual Individual Post 
+# Individual Individual Post 
 ---
 ```php
 <?php 
@@ -30,7 +30,7 @@ endif;
 ```
 
 
-#Style Style Posts from Some Categories Differently 
+# Style Posts from Some Categories Differently 
 ---
 ```php
 <?php
